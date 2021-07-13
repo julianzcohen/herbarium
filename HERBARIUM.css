@@ -1,0 +1,36 @@
+html, body {
+    margin: 0px;
+}
+.embed {
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    }
+
+    .foo {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border: 0px solid rgba(0, 0, 0, .2);
+      }
+
+    .white {
+    background: #000;
+    position:absolute;
+    right: 30px;
+    top: 80px;
+    width: 50px;
+    height: 50px;
+    z-index: 3;
+  }
+  
+  .clear {
+    background: #000;
+    position:absolute;
+    left: 20px;
+    top: 80px;
+    width: 300px;
+    height: 50px;
+    z-index: 2;
+  }
